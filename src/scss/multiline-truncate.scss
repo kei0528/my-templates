@@ -1,0 +1,6 @@
+@mixin multiline-truncate($line) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
