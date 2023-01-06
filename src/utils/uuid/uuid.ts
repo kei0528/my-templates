@@ -1,5 +1,5 @@
 export const uuid = () => {
-  let randomStr = () => {
+  const randomStr = () => {
     return Math.floor((1 + Math.random()) * 0x10000)
       .toString(16)
       .substring(1);
